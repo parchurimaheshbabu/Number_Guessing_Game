@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.container input{
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(165, 173, 173);
+    height: 2rem;
+    margin-bottom:1% ;
+    color: white;
+    font-size: larger;
+
+
+}
+#rld{
+    display: none;
+}
+.container button{
+    margin-bottom:1% ;
+    padding: 10px;
+    border: none;
+    background-color: cadetblue;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+p{
+    font-size: larger;
+}
